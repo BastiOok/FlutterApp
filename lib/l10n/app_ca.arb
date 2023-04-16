@@ -1,0 +1,22 @@
+{
+    "@@locale" : "ca",
+
+    "slogan": "Descobreix aquí un interès que et sorprendrà",
+
+    "username":"Nom d'usuari",
+    "passw":"Contrasenya",
+
+    "forgotPass": "Has oblidat la contrasenya",
+    "newUserCreateAcount": "Nou usuari? Crea un compte",
+    "emptyFieldError":"Camp buit no permès.",
+
+    "listsTitle":"Llistes",
+
+    "apple":"Poma",
+
+    "populationMessage":"Població",
+
+    "acceptMessage":"Acceptar",
+
+    "removeMessage":"Suprimeix"
+}

@@ -1,0 +1,22 @@
+{
+    "@@locale" : "en",
+
+    "slogan": "Discover here an interest that will amaze you",
+
+    "username":"Username",
+    "passw":"Password",
+
+    "forgotPass": "Forgot pasword",
+    "newUserCreateAcount": "New User? Create Acount",
+    "emptyFieldError":"Empty field not permited.",
+
+    "listsTitle":"Lists",
+
+    "apple":"Apple",
+
+    "populationMessage":"Population",
+
+    "acceptMessage":"Accept",
+
+    "removeMessage":"Delete"
+}

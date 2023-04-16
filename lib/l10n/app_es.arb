@@ -1,0 +1,23 @@
+{
+    "@@locale" : "es",
+
+    "slogan":"Descubre aquí un interés que te asombrará",
+
+    "username":"Nombre de usuario",
+    "passw":"Contraseña",
+
+    "forgotPass": "Contraseña olvidada",
+    "newUserCreateAcount": "Nuevo usuario? Crea cuenta",
+    "emptyFieldError":"Campo no puede estar vacio.",
+    
+    "listsTitle":"Listas",
+
+    "apple":"Manzana",
+
+    "populationMessage":"Poblacion",
+
+    "acceptMessage":"Aceptar",
+
+    "removeMessage":"Eliminar"
+
+}
