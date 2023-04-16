@@ -253,53 +253,53 @@ final List<CiudadesModel> citiesList = [
   )
 ];
 
+final List<ProductModel> listaProductos = [
+  ProductModel(1, "Manzana", "Granjas verdes asociados", DateTime.parse("2002-12-10"), 220.23, "Muy buena manzana"),
+  ProductModel(2, "Pera", "Buena Pera", DateTime.parse("2020-08-18"), 1002.44, "Estas peras se venden inmediatamente"),
+  ProductModel(3, "Coca", "The Coca-Cola Company", DateTime.parse("2000-01-20"), 60.99, "Bebe siempre coca cola, SIEMPRE"),
+  ProductModel(4, "Fanta", "The Coca-Cola Company", DateTime.parse("1987-11-03"), 19.23, "Mejor bebe coca, esta mas buena"),
+  ProductModel(5, "Pepsi", "PepsiCo", DateTime.parse("2001-06-21"), 50.99, "No bebas pepsi bebé COCACOLA"),
+  ProductModel(6, "Waifu", "JAPAN-UNITED", DateTime.parse("2017-12-10"), 674.99, "Si te sientes muy solo y no quieres una cocacola, nosotros tenemos el preoducto perfecto."),
+  ProductModel(7, "Teclado gaming", "Razer", DateTime.parse("2012-09-11"), 99.99, "Mejor teclado del mercado"),
+  ProductModel(8, "Pantalla gaming", "Razer", DateTime.parse("2012-10-01"), 249.95, "Mejor pantalla gaming de la historia (recomendado 100% por profesionales)"),
+  ProductModel(9, "Silla gaming", "Razer", DateTime.parse("2012-10-02"), 399.99, "Silla gaming con bebidas energeticas incluidas una vez te sientes no hace falta que vuelvas a dormir."),
+  ProductModel(10, "Póster gaming", "Razer", DateTime.parse("2013-01-29"), 67.32, "Poster de lo mejor, mas si eres streamer, pontelo en el fondo de los streams, QUE TUS MILES DE SEGUIDORES NOS COMPREN TAMBIEN"),
+  ProductModel(11, "Alfombrilla gaming", "Razer", DateTime.parse("2013-02-09"), 9887.88, "Alfombrilla gaming con leds hecha de cocodrilos"),
+];
+
+final List<ProductModel> llistaProductes = [
+  ProductModel(1, "Poma", "Granges verdes associats", DateTime.parse("2002-12-10"), 220.23, "Molt bona poma"),
+  ProductModel(2, "Pera", "Buena Pera", DateTime.parse("2020-08-18"), 1002.44, "Aquestes peres es venen immediatament"),
+  ProductModel(3, "Coca", "The Coca-Cola Company", DateTime.parse("2000-01-20"), 60.99, "Beu sempre coca, SEMPRE"),
+  ProductModel(4, "Fanta", "The Coca-Cola Company", DateTime.parse("1987-11-03"), 19.23, "Millor beu coca, aquesta més bona"),
+  ProductModel(5, "Pepsi", "PepsiCo", DateTime.parse("2001-06-21"), 50.99, "No beguis pepsi beu COCACOLA"),
+  ProductModel(6, "Waifu", "JAPAN-UNITED", DateTime.parse("2017-12-10"), 674.99, "Si et sents molt sol i no vols una coca cua, nosaltres tenim el preoducte perfecte"),
+  ProductModel(7, "Teclat gaming", "Razer", DateTime.parse("2012-09-11"), 99.99, "Millor teclat del mercat"),
+  ProductModel(8, "Pantalla gaming", "Razer", DateTime.parse("2012-10-01"), 249.95, "Millor pantalla gaming de la història (recomanat 100% per professionals)"),
+  ProductModel(9, "Cadira gaming", "Razer", DateTime.parse("2012-10-02"), 399.99, "Cadira gaming amb begudes energètiques incloses un cop et sents no cal que tornis a dormir"),
+  ProductModel(10, "Poster gaming", "Razer", DateTime.parse("2013-01-29"), 67.32, "Pòster del millor, mes si ets streamer, posa't al fons dels streams, QUE ELS TEUS MILERS DE SEGUIDORS ENS COMPREN TAMBÉ"),
+  ProductModel(11, "Estoreta gaming", "Razer", DateTime.parse("2013-02-09"), 9887.88, "Estoreta gaming amb leds feta de cocodrils"),
+];
+
+final List<ProductModel> productsList = [
+  ProductModel(1, "Apple", "Granjas verdes asociados", DateTime.parse("2002-12-10"), 220.23, "Very good apple"),
+  ProductModel(2, "Pear", "Buena Pera", DateTime.parse("2020-08-18"), 1002.44, "These pears are sold immediately"),
+  ProductModel(3, "Coca", "The Coca-Cola Company", DateTime.parse("2000-01-20"), 60.99, "Always drink Coke, ALWAYS"),
+  ProductModel(4, "Fanta", "The Coca-Cola Company", DateTime.parse("1987-11-03"), 19.23, "Better drink coke, it's better"),
+  ProductModel(5, "Pepsi", "PepsiCo", DateTime.parse("2001-06-21"), 50.99, "Don't drink Pepsi drink COCACOLA"),
+  ProductModel(6, "Waifu", "JAPAN-UNITED", DateTime.parse("2017-12-10"), 674.99, "If you feel very lonely and don't want a Coke, we have the perfect product"),
+  ProductModel(7, "Gaming keyboard", "Razer", DateTime.parse("2012-09-11"), 99.99, "Best keyboard on the market"),
+  ProductModel(8, "Gaming screen", "Razer", DateTime.parse("2012-10-01"), 249.95, "Best gaming screen ever (100% recommended by professionals)"),
+  ProductModel(9, "Gaming chair", "Razer", DateTime.parse("2012-10-02"), 399.99, "Gaming chair with energy drinks included once you sit down you don't need to go back to sleep"),
+  ProductModel(10, "Gaming posters", "Razer", DateTime.parse("2013-01-29"), 67.32, "Poster of the best, but if you are a streamer, put it at the bottom of the streams, MAY YOUR THOUSANDS OF FOLLOWERS BUY US TOO"),
+  ProductModel(11, "Gaming mat", "Razer", DateTime.parse("2013-02-09"), 9887.88, "Gaming mousepad with leds made of crocodiles"),
+];
+
 Map<String,List<CiudadesModel>> ciudadesMap =  {
   'en':citiesList,
   'es':listaCiudades,
   'ca':ciutatsLlista
 };
-
-final List<ProductModel> listaProductos = [
-  ProductModel(1, "Manzana", "Granjas verdes asociados", DateTime.parse("2002-12-10"), 220.23),
-  ProductModel(2, "Pera", "Buena Pera", DateTime.parse("2020-08-18"), 1002.44),
-  ProductModel(3, "Coca", "The Coca-Cola Company", DateTime.parse("2000-01-20"), 60.99),
-  ProductModel(4, "Fanta", "The Coca-Cola Company", DateTime.parse("1987-11-03"), 19.23),
-  ProductModel(5, "Pepsi", "PepsiCo", DateTime.parse("2001-06-21"), 50.99),
-  ProductModel(6, "Waifu", "JAPAN-UNITED", DateTime.parse("2017-12-10"), 674.99),
-  ProductModel(7, "Teclado gaming", "Razer", DateTime.parse("2012-09-11"), 99.99),
-  ProductModel(8, "Pantalla gaming", "Razer", DateTime.parse("2012-10-01"), 249.95),
-  ProductModel(9, "Silla gaming", "Razer", DateTime.parse("2012-10-02"), 399.99),
-  ProductModel(10, "Póster gaming", "Razer", DateTime.parse("2013-01-29"), 67.32),
-  ProductModel(11, "Alfombrilla gaming", "Razer", DateTime.parse("2013-02-09"), 9887.88),
-];
-
-final List<ProductModel> llistaProductes = [
-  ProductModel(1, "Poma", "Granges verdes associats", DateTime.parse("2002-12-10"), 220.23),
-  ProductModel(2, "Pera", "Buena Pera", DateTime.parse("2020-08-18"), 1002.44),
-  ProductModel(3, "Coca", "The Coca-Cola Company", DateTime.parse("2000-01-20"), 60.99),
-  ProductModel(4, "Fanta", "The Coca-Cola Company", DateTime.parse("1987-11-03"), 19.23),
-  ProductModel(5, "Pepsi", "PepsiCo", DateTime.parse("2001-06-21"), 50.99),
-  ProductModel(6, "Waifu", "JAPAN-UNITED", DateTime.parse("2017-12-10"), 674.99),
-  ProductModel(7, "Teclat gaming", "Razer", DateTime.parse("2012-09-11"), 99.99),
-  ProductModel(8, "Pantalla gaming", "Razer", DateTime.parse("2012-10-01"), 249.95),
-  ProductModel(9, "Cadira gaming", "Razer", DateTime.parse("2012-10-02"), 399.99),
-  ProductModel(10, "Poster gaming", "Razer", DateTime.parse("2013-01-29"), 67.32),
-  ProductModel(11, "Estoreta gaming", "Razer", DateTime.parse("2013-02-09"), 9887.88),
-];
-
-final List<ProductModel> productsList = [
-  ProductModel(1, "Apple", "Granjas verdes asociados", DateTime.parse("2002-12-10"), 220.23),
-  ProductModel(2, "Pear", "Buena Pera", DateTime.parse("2020-08-18"), 1002.44),
-  ProductModel(3, "Coca", "The Coca-Cola Company", DateTime.parse("2000-01-20"), 60.99),
-  ProductModel(4, "Fanta", "The Coca-Cola Company", DateTime.parse("1987-11-03"), 19.23),
-  ProductModel(5, "Pepsi", "PepsiCo", DateTime.parse("2001-06-21"), 50.99),
-  ProductModel(6, "Waifu", "JAPAN-UNITED", DateTime.parse("2017-12-10"), 674.99),
-  ProductModel(7, "Gaming keyboard", "Razer", DateTime.parse("2012-09-11"), 99.99),
-  ProductModel(8, "Gaming screen", "Razer", DateTime.parse("2012-10-01"), 249.95),
-  ProductModel(9, "Gaming chair", "Razer", DateTime.parse("2012-10-02"), 399.99),
-  ProductModel(10, "Gaming posters", "Razer", DateTime.parse("2013-01-29"), 67.32),
-  ProductModel(11, "Gaming mat", "Razer", DateTime.parse("2013-02-09"), 9887.88),
-];
 
 Map<String,List<ProductModel>> productsMap = {
   "en":productsList,

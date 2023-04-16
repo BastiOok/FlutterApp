@@ -1,5 +1,3 @@
-import 'dart:async';
-
 import 'package:intl/intl.dart';
 import 'package:listado_pedidos/global.dart';
 import 'package:flutter/material.dart';
@@ -10,18 +8,11 @@ import 'package:listado_pedidos/app_setting.dart';
 
 
 class ProductsList extends StatelessWidget {
-
   const ProductsList({super.key});
-
   @override
   Widget build(BuildContext context) {
     final Locale appLocale = Localizations.localeOf(context);
     return Scaffold(
-      // appBar: AppBar(
-      //   title: const Text('Products list'),
-      //   automaticallyImplyLeading: false,
-      //   actions: languageSelector(context),
-      // ),
       body: ListView(
         //Mapeamos las ciudades para asi crear un listado el cual contiene varios StatelessWidget de Ciudaddes.
         children: productsMap[appLocale.languageCode]!.map((product) => ProductView(product)).toList(),
@@ -36,6 +27,7 @@ class ProductView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //Cojemos el lenguaje que tiene la app seleccionada.
     final Locale appLocale = Localizations.localeOf(context);
     return InkWell(
       onTap: () => Navigator.pushNamed(context, Routes.product, arguments:_producto),
@@ -56,10 +48,12 @@ class ProductView extends StatelessWidget {
                       style: const TextStyle(color: Colors.grey),
                     ),
                     Text(
+                      //Usando el luenguaje seleccionado, podemos alternar como se mestra el conenido en las fechas.
                       DateFormat.yMMMMd(appLocale.languageCode).format(_producto.dischargeDate),
                       style: const TextStyle(color: Colors.grey),
                     ),
                     Text(
+                      //Usando el lenguaje seleccionado, podemos alternar como se muestra el precio cambaindole el simbolo de la moneda
                       NumberFormat.currency(locale: internalizationSettings[appLocale.languageCode] ).format(_producto.price),
                       style: const TextStyle(fontWeight: FontWeight.bold),
                     )

@@ -19,9 +19,7 @@ class Routes{
   static late String username = "";
   //Aque definimos las rutas que tiene nuestra aplicacion de forma estatcia para poder accededr a ellas facilmente.
   static const String login = "/login";
-  // static const String ciudades = "/ciudades";
   static const String ciudad = "/ciudad";
-  // static const String products = "/products";
   static const String product = "/product";
   static const String chooseList = "/lists";
   static const String splash = "/";
@@ -31,11 +29,6 @@ class Routes{
       Routes.login: (context) => const Login(),//Página para el login.
       Routes.splash: (context) => const SplashPage(),//Página principal.
       Routes.chooseList: (context) => const ChooseList(),
-      // Routes.ciudades: (context) {
-      //   //username = ModalRoute.of(context)!.settings.arguments as String;//Página el la que se mostrará el listado de ciudades
-      //   return const Ciudades();
-      // },
-      // Routes.products: (context) => const ProductsList(),
       Routes.product:(context) {
         final ProductModel product = ModalRoute.of(context)!.settings.arguments as ProductModel;
         return Product(product);
